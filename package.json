@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@openrouter/sdk": "^0.12.35",
+    "@types/node": "^25.9.1",
+    "dotenv": "^17.4.2",
+    "save-dev": "^0.0.1-security"
+  },
+  "type": "module",
+  "scripts": {
+    "dev":"tsc -b && node dist/index.js"
+  }
+}
